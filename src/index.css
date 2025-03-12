@@ -3,6 +3,11 @@
 
 @import "tailwindcss";
 
+@theme {
+  --color-primary: '#FFC107'
+  --color-secondary: '#FF18B8'
+}
+
 /* body {
   font-family: "Josefin Sans";
 } */

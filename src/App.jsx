@@ -1,7 +1,11 @@
+import NavBar from "./components/NavBar";
+import ThreeBackground from "./components/ThreeBackground";
+
 function App() {
   return (
     <>
-      <h1 className="text-2xl font-medium">WELCOME</h1>
+      <ThreeBackground />
+      <NavBar />
     </>
   );
 }

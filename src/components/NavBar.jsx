@@ -1,15 +1,15 @@
 import {useAnimate, stagger, motion, transform} from "framer-motion";
 import {useEffect, useState} from "react";
 
-const Path = (props) => {
-  <Path
+const Path = (props) => (
+  <path
     fill="transparent"
     strokeWidth="3"
     stroke="white"
     strokeLinecap="round"
     {...props}
-  />;
-};
+  />
+);
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scope, animate] = useAnimate();
@@ -43,8 +43,9 @@ export default function NavBar() {
         {d: isOpen ? "M 3 16.5 L 17 2.5" : "M 2 2.5 L 20 2.5"},
         {at: "<"},
       ],
+      ["path.middle", {opacity: isOpen ? 0 : 1}, {at: "<"}],
       [
-        "path.middle",
+        "path.bottom",
         {d: isOpen ? "M 3 2.5 L 17 16.346" : "M 2 16.346 L 20 16.346"},
         {at: "<"},
       ],
@@ -72,10 +73,7 @@ export default function NavBar() {
       <div ref={scope} className="relative">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="absolute top-4 z-40 left-4 w-12 h-12 rounded-full flex items-center justify-center"
-          style={{
-            backgroundImage: `linear-gradient(to bottom right, var(--color-primary), var(--color-secondary))`,
-          }}>
+          className="absolute top-4 z-40 left-4 w-12 h-12 rounded-full flex items-center justify-center bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-secondary)]">
           <svg width={23} height={18} viewBox="0 0 23 18">
             <Path d="M 2 2.5 L 20 2.5" className="top-0" />
             <Path
@@ -83,13 +81,13 @@ export default function NavBar() {
               opacity="1"
               className="align-middle"
             />
-            <Path d="M 2 16.346 L 20 9.423" className="bottom" />
+            <Path d="M 2 16.346 L 20 16.346" className="bottom" />
           </svg>
         </button>
         <nav
-          className={`fixed top-9 left-0 h-full w-72 z-30 items-center bg-gradient-to-br from-primary to-secondary transform ${
+          className={`fixed top-0 left-0 h-full w-72 z-30 flex items-center bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-secondary)] transform ${
             isOpen ? "translate-x-0" : "-translate-x-full"
-          } transition-transform duraction-300`}>
+          } transition-transform duration-300`}>
           <ul className="flex flex-col p-6">
             {NavItems.map((item) => (
               <li key={item.id} className="text-white text-4xl font-bold mt-10">

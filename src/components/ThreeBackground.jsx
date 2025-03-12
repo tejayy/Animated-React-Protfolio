@@ -36,8 +36,8 @@ export default function ThreeBackground() {
     const handleMouseMove = (e) => {
       const mouseX = (e.clientX / window.innerWidth) * 2 - 1;
       const mouseY = -(e.clientY / window.innerHeight) * 2 + 1;
-      starField.rotation.x += mouseY * 0.1;
-      starField.rotation.y += mouseX * 0.1;
+      starField.rotation.x += mouseY * 0.02;
+      starField.rotation.y += mouseX * 0.02;
     };
 
     window.addEventListener("mousemove", handleMouseMove);
@@ -56,8 +56,8 @@ export default function ThreeBackground() {
     //Render loop
     const animate = () => {
       requestAnimationFrame(animate);
-      starField.rotation.x += 0.001;
-      starField.rotation.y += 0.001;
+      starField.rotation.x += 0.0003;
+      starField.rotation.y += 0.0003;
       renderer.render(scene, camera);
     };
 

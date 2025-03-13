@@ -23,12 +23,16 @@ function HeroSection() {
                 </h1>
               </header>
               <p className="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-[370px] md:max-w-xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                earum qui fugit sunt nisi, officiis laudantium illo, quasi totam
-                omnis corrupti ab, quo sit pariatur nostrum placeat voluptatem
-                modi molestias aperiam. Error natus aperiam excepturi eaque
-                voluptates fugit sed laboriosam, exercitationem sunt nam
-                inventore voluptatem deserunt hic dicta saepe alias.
+                Self-taught Frontend Developer from Chhatrapati Sambhaji
+                Nagar-INDIA, passionate about building sleek, high-performance
+                web apps. Skilled in React, Next.js, TailwindCSS, Node.js,
+                Express, and AWS. Exploring cloud & full-stack development to
+                craft scalable solutions. <br /> <br />
+                💡 Tech Stack: React, Next.js, Tailwind, Node.js, Express,
+                MongoDB, AWS 🎯 Passion: UI/UX, performance optimization, and
+                scalable architectures <br /> <br />
+                Looking for opportunities to create, innovate, and grow! <br />{" "}
+                📩 Let’s connect!
               </p>
               <section className="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:max-auto lg:max-0">
                 <figure className="w-56">

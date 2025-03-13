@@ -72,3 +72,28 @@ export const Services = [
       "I can help you build and deploy applications on the cloud. I have experience with AWS, Azure, and Google Cloud Platform.",
   },
 ];
+
+//SKILLS SECTION
+
+export const skills = [
+  {
+    skills: "React",
+    percentage: 80,
+    icon: "https://img.icons8.com/?size=100&id=bzf0DqjXFHIW&format=png&color=000000",
+  },
+  {
+    skills: "Node.js",
+    percentage: 70,
+    icon: "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
+  },
+  {
+    skills: "Tailwindcss",
+    percentage: 70,
+    icon: "https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000",
+  },
+  {
+    skills: "AWS",
+    percentage: 70,
+    icon: "https://img.icons8.com/?size=100&id=heQa_XKLT3nf&format=png&color=000000",
+  },
+];

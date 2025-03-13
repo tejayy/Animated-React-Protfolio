@@ -1,5 +1,6 @@
 import {motion} from "framer-motion";
 import {variants} from "./data/config";
+import InteractiveButton from "./InteractiveButton.jsx";
 
 function HeroSection() {
   return (
@@ -24,8 +25,8 @@ function HeroSection() {
               eaque qui.
             </p>
             <section className="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:max-auto lg:max-0">
-              <figure className="text-white w-56">
-                <button>Hire Me</button>
+              <figure className="w-56">
+                <InteractiveButton text="Hire me" />
               </figure>
               <motion.button
                 whileHover={{scale: 1.1}}

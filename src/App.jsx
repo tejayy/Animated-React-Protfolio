@@ -1,3 +1,4 @@
+import HeroSection from "./components/HeroSection";
 import NavBar from "./components/NavBar";
 import ThreeBackground from "./components/ThreeBackground";
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <ThreeBackground />
       <NavBar />
+      <HeroSection />
     </>
   );
 }

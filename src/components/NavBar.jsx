@@ -62,9 +62,9 @@ export default function NavBar() {
   };
 
   const NavItems = [
-    {id: "services", text: "What I Offer"},
+    {id: "services", text: "What I Offer?"},
     {id: "skills", text: "My Skills"},
-    {id: "Experience", text: "Education and Experiance"},
+    {id: "Experience", text: "Education & Experiance"},
     {id: "work", text: "My Work"},
     {id: "contact", text: "Contact"},
   ];
@@ -75,12 +75,8 @@ export default function NavBar() {
           onClick={() => setIsOpen(!isOpen)}
           className="absolute top-4 z-40 left-4 w-12 h-12 rounded-full flex items-center justify-center bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-secondary)]">
           <svg width={23} height={18} viewBox="0 0 23 18">
-            <Path d="M 2 2.5 L 20 2.5" className="top-0" />
-            <Path
-              d="M 2 9.423 L 20 9.423"
-              opacity="1"
-              className="align-middle"
-            />
+            <Path d="M 2 2.5 L 20 2.5" className="top" />
+            <Path d="M 2 9.423 L 20 9.423" opacity="1" className="middle" />
             <Path d="M 2 16.346 L 20 16.346" className="bottom" />
           </svg>
         </button>
@@ -102,7 +98,7 @@ export default function NavBar() {
         </nav>
       </div>
       <h1 className="font-bold text-2xl text-white top-8 right-8 p-8 lg:top-12 lg:pr-16">
-        LOGO
+        STAR
       </h1>
     </div>
   );

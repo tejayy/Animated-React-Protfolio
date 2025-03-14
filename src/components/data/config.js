@@ -97,3 +97,33 @@ export const skills = [
     icon: "https://img.icons8.com/?size=100&id=heQa_XKLT3nf&format=png&color=000000",
   },
 ];
+
+export const experience = [
+  {
+    id: 1,
+    title: "Full Stack Developer",
+    company: "Company A",
+    date: "2019 - Present",
+    description:
+      "I work as a full stack developer at Company A. I am responsible for building and maintaining web applications for the company.",
+    icon: "https://img.icons8.com/?size=100&id=9489&format=png&color=000000",
+  },
+  {
+    id: 2,
+    title: "Frontend Developer",
+    company: "Company B",
+    date: "2017 - 2019",
+    description:
+      "I worked as a frontend developer at Company B. I was responsible for building and maintaining the frontend of the company's website.",
+    icon: "https://img.icons8.com/?size=100&id=9489&format=png&color=000000",
+  },
+  {
+    id: 3,
+    title: "Software Engineer",
+    company: "Company C",
+    date: "2015 - 2017",
+    description:
+      "I worked as a software engineer at Company C. I was responsible for building and maintaining software applications for the company.",
+    icon: "https://img.icons8.com/?size=100&id=OBf1rJ2rhZs7&format=png&color=000000",
+  },
+];

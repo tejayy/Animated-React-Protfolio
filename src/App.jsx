@@ -1,3 +1,4 @@
+import EducationAndExperience from "./components/EducationAndExperience";
 import HeroSection from "./components/HeroSection";
 import NavBar from "./components/NavBar";
 import NumbersSection from "./components/NumbersSection";
@@ -14,6 +15,7 @@ function App() {
       <NumbersSection />
       <ServicesSection />
       <SkillsSection />
+      <EducationAndExperience />
     </>
   );
 }

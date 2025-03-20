@@ -7,6 +7,7 @@ import ThreeBackground from "./components/ThreeBackground";
 import EducationAndExperience from "./components/EducationAndExperience";
 import ProjectSection from "./components/ProjectSection";
 import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <EducationAndExperience />
       <ProjectSection />
       <ContactUs />
+      <Footer />
     </>
   );
 }

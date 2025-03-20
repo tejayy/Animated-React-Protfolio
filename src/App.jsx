@@ -6,6 +6,7 @@ import SkillsSection from "./components/SkillsSection";
 import ThreeBackground from "./components/ThreeBackground";
 import EducationAndExperience from "./components/EducationAndExperience";
 import ProjectSection from "./components/ProjectSection";
+import ContactUs from "./components/ContactUs";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <SkillsSection />
       <EducationAndExperience />
       <ProjectSection />
+      <ContactUs />
     </>
   );
 }

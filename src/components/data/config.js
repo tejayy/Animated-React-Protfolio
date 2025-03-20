@@ -183,3 +183,24 @@ export const projects = [
     image: "https://img.icons8.com/?size=100&id=9489&format=png&color=000000",
   },
 ];
+
+export const contactData = [
+  {
+    id: 1,
+    title: "Email",
+    description: "tbj456@gmail.com",
+    icon: "https://img.icons8.com/?size=100&id=108806&format=png&color=000000",
+  },
+  {
+    id: 2,
+    title: "Phone",
+    description: "+91 8237875792",
+    icon: "https://img.icons8.com/?size=100&id=ZAh199SDBZjz&format=png&color=000000",
+  },
+  {
+    id: 3,
+    title: "Address",
+    description: "Chhatrapati Sambhaji Nagar, India",
+    icon: "https://img.icons8.com/?size=100&id=113806&format=png&color=000000",
+  },
+];

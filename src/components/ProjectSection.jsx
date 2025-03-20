@@ -39,7 +39,7 @@ export default function ProjectSection() {
             />
           </button>
         </nav>
-        <article className="w-full h-full flex items-center justify-center">
+        <article className="relative w-full h-screen flex items-center justify-center">
           <AnimatePresence initial={false}>
             {projects.map(
               (project, index) =>

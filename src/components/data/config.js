@@ -165,7 +165,8 @@ export const projects = [
     title: "Project A",
     description:
       "I built Project A using React and TailwindCSS. It is a web application that allows users to create and manage their projects.",
-    image: "https://img.icons8.com/?size=100&id=9489&format=png&color=000000",
+    image:
+      "https://plus.unsplash.com/premium_photo-1678566111481-8e275550b700?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2ViJTIwYXBwbGljYXRpb258ZW58MHx8MHx8fDA%3D",
   },
   {
     id: 2,

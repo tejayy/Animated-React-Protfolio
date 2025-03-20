@@ -32,7 +32,7 @@ export default function ProjectSection() {
             onClick={prevSlide}
             className="absolute left-4 z-10 hover:scale-105">
             <img
-              src="https://img.icons8.com/?size=100&id=39977&format=png&color=000000"
+              src="https://img.icons8.com/?size=100&id=tJR7qBSiarrC&format=png&color=000000"
               alt="circled-chevron-left"
               width={100}
               height={100}
@@ -80,7 +80,7 @@ export default function ProjectSection() {
             onClick={nextSlide}
             className="absolute right-4 z-10 hover:scale-105">
             <img
-              src="https://img.icons8.com/?size=100&id=39976&format=png&color=000000"
+              src="https://img.icons8.com/?size=100&id=IUu9MDT0JBcb&format=png&color=000000"
               alt="circled-chevron-right"
               width={100}
               height={100}

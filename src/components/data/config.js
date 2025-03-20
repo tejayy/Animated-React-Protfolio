@@ -143,7 +143,7 @@ export const education = [
     degree: "Frontend Developer",
     institution: "Company B",
     year: "2017 - 2019",
-    description:
+    details:
       "I worked as a frontend developer at Company B. I was responsible for building and maintaining the frontend of the company's website.",
     icon: "https://img.icons8.com/?size=100&id=9489&format=png&color=000000",
   },
@@ -152,7 +152,7 @@ export const education = [
     degree: "Software Engineer",
     institution: "Company C",
     year: "2015 - 2017",
-    description:
+    details:
       "I worked as a software engineer at Company C. I was responsible for building and maintaining software applications for the company.",
     icon: "https://img.icons8.com/?size=100&id=OBf1rJ2rhZs7&format=png&color=000000",
   },

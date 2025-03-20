@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import {motion} from "framer-motion";
 import CustomTitle from "./CustomTitles";
 import {skills} from "./data/config";

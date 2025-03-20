@@ -157,3 +157,28 @@ export const education = [
     icon: "https://img.icons8.com/?size=100&id=OBf1rJ2rhZs7&format=png&color=000000",
   },
 ];
+
+//PROJECT SECTION
+export const projects = [
+  {
+    id: 1,
+    title: "Project A",
+    description:
+      "I built Project A using React and TailwindCSS. It is a web application that allows users to create and manage their projects.",
+    image: "https://img.icons8.com/?size=100&id=9489&format=png&color=000000",
+  },
+  {
+    id: 2,
+    title: "Project B",
+    description:
+      "I built Project B using React and TailwindCSS. It is a web application that allows users to create and manage their projects.",
+    image: "https://img.icons8.com/?size=100&id=9489&format=png&color=000000",
+  },
+  {
+    id: 3,
+    title: "Project C",
+    description:
+      "I built Project C using React and TailwindCSS. It is a web application that allows users to create and manage their projects.",
+    image: "https://img.icons8.com/?size=100&id=9489&format=png&color=000000",
+  },
+];
